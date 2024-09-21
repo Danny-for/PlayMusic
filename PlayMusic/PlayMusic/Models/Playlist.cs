@@ -1,12 +1,13 @@
 ﻿namespace PlayMusic.Models
 {
+    /// <summary>
+    /// <Para>Resumo: Class responsavel por representar a Playlist no banco de dado.</Para>
+    /// <Para>Criador por: Dannyela Souza</Para>
+    /// <Para>15/09/2024</Para>
+    /// </summary>
     public class Playlist
     {
-        /// <summary>
-        /// <Para>Resumo: Class responsavel por representar a Playlist no banco de dado.</Para>
-        /// <Para>Criador por: Dannyela Souza</Para>
-        /// <Para>15/09/2024</Para>
-        /// </summary>
+ 
         public int PlaylistId { get; set; }
         public int UsuarioId { get; set; }//Chave estrangeira
         public string PlaylistNome { get; set; }
