@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PlayMusic.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\danny\\OneDrive\\Área de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "C:\\Users\\danny\\OneDrive\\Área de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
