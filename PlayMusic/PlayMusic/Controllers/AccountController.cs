@@ -8,5 +8,10 @@ namespace PlayMusic.Controllers
         {
             return View();
         }
+
+        public IActionResult Registro()
+        {
+            return View();
+        }
     }
 }

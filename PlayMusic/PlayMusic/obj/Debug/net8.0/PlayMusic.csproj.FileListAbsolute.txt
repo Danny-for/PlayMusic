@@ -134,7 +134,6 @@ C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\Pla
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\PlayMusic.pdb
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\PlayMusic.genruntimeconfig.cache
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\ref\PlayMusic.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\PlayMusic.sourcelink.json
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
