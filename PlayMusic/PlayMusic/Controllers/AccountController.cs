@@ -13,5 +13,15 @@ namespace PlayMusic.Controllers
         {
             return View();
         }
+
+        public IActionResult VerificandoEmail()
+        {
+            return View();
+        }
+
+        public IActionResult AlterarSenha()
+        {
+            return View();
+        }
     }
 }

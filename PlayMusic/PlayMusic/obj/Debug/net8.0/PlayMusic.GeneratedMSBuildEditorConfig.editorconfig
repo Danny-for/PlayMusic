@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Account/AlterarSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBbHRlcmFyU2VuaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Account/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Account/VerificandoEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZmljYW5kb0VtYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Home/Index.cshtml]

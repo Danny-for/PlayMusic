@@ -7,7 +7,7 @@ namespace PlayMusic.ViewModels
     /// Esta classe contém as informações necessárias para alterar a senha,
     /// como email, nova senha e a confirmação da nova senha.
     /// </summary>
-    public class AlterarSenha
+    public class AlterarSenhaViewModel
     {
         [Required(ErrorMessage = "O campo Email é obrigatório!")]
         [EmailAddress]
