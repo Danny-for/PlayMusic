@@ -83,9 +83,77 @@ namespace PlayMusic.Controllers
             return View();
         }
 
-        public IActionResult AlterarSenha()
+        [HttpPost]
+        public async Task<IActionResult> VerificandoEmail(VerificandoEmailViewModel model)
         {
-            return View();
+            if (ModelState.IsValid) 
+            {
+                var usuario = await userManager.FindByNameAsync(model.Email);
+
+                if (usuario == null)
+                {
+                    ModelState.AddModelError("", "Usuário não encontrado.");
+                    return View(model);
+                }
+                else
+                {
+                    return RedirectToAction("AlterarSenha", "Account", new {username = usuario.UserName});
+                }
+            }
+            return View(model);
+        }
+
+        public IActionResult AlterarSenha(string username)
+        {
+            if(string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("verificandoEmail", "Account");
+            }
+            return View(new AlterarSenhaViewModel { Email = username});
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AlterarSenha(AlterarSenhaViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuario = await userManager.FindByNameAsync(model.Email);
+                if (usuario != null)
+                {
+                    var resultado = await userManager.RemovePasswordAsync(usuario);
+                    if (resultado.Succeeded)
+                    {
+                        resultado = await userManager.AddPasswordAsync(usuario, model.NewPassword);
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+
+                        foreach (var error in resultado.Errors)
+                        {
+                            ModelState.AddModelError("", error.Description);
+                        }
+
+                        return View(model);
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Email não encontrado!");
+                    return View(model);
+                }
+            }
+            else
+            {
+                ModelState.AddModelError("", "Something went wrong. try again.");
+                return View(model);
+            }
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
