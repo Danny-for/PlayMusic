@@ -10,8 +10,6 @@
        public int PlaylistId { get; set; }
        public string NomeMusica { get; set; }
        public string ArtistaMusica { get; set; }
-       public string Genero { get; set; }
-       public Playlist Playlist { get; set; }
        
     }
 }

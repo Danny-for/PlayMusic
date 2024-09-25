@@ -9,6 +9,9 @@ C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\Pla
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Humanizer.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -21,6 +24,9 @@ C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\Pla
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -134,9 +140,3 @@ C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\Pla
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\PlayMusic.pdb
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\PlayMusic.genruntimeconfig.cache
 C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\obj\Debug\net8.0\ref\PlayMusic.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\danny\OneDrive\Área de Trabalho\AcademiaAtos\AtosProjeto\PlayMusic\PlayMusic\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

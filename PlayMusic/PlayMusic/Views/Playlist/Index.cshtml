@@ -1,0 +1,39 @@
+﻿@model IEnumerable<PlayMusic.Models.Playlist>
+
+@{
+    ViewData["Title"] = "Playlists";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<h2 class="text-center mb-4 text-white">Minhas Playlists</h2>
+
+<div class="playlist-container">
+    @if (!Model.Any())
+    {
+        <p class="text-white">Nenhuma playlist encontrada.</p>
+    }
+    else
+    {
+        <ul class="list-group">
+    @foreach (var playlist in Model)
+    {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            @playlist.PlaylistNome
+            <div>
+                <form asp-action="Delete" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@playlist.PlaylistId" />
+                    <button type="submit" class="btn btn-danger btn-sm">Deletar</button>
+                </form>
+                <a asp-controller="Musica" asp-action="Adicionar" asp-route-playlistId="@playlist.PlaylistId" class="btn btn-primary btn-sm">Adicionar Música</a>
+                <a asp-controller="Musica" asp-action="Visualizar" asp-route-playlistId="@playlist.PlaylistId" class="btn btn-info btn-sm">Visualizar Músicas</a>
+            </div>
+        </li>
+    }
+</ul>
+        
+    }
+</div>
+
+<div class="text-center mt-4">
+    <a asp-controller="Playlist" asp-action="Criar" class="btn btn-success">Criar Nova Playlist</a>
+</div>

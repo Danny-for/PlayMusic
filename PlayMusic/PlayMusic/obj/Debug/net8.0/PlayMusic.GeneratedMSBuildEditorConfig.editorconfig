@@ -42,8 +42,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Musica/Adicionar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNhXEFkaWNpb25hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Musica/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNhXFZpc3VhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Playlist/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcQ3JpYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Playlist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/danny/OneDrive/Área de Trabalho/AcademiaAtos/AtosProjeto/PlayMusic/PlayMusic/Views/Shared/Error.cshtml]

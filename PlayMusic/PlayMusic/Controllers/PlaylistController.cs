@@ -21,113 +21,100 @@ namespace PlayMusic.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        [Authorize]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var playlists = await _context.Playlists.ToListAsync();
+            return View(playlists);
         }
 
-        // Exibe o formulário para criar uma nova playlist
+
         [Authorize]
         public IActionResult Criar()
         {
             return View();
         }
 
-        // Cria uma nova playlist
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> Criar(Playlist model)
         {
-            if (ModelState.IsValid)
+            // Remove as chaves que estão causando os erros de validação
+            ModelState.Remove("Usuario");
+            ModelState.Remove("UsuarioId");
+
+            if (!ModelState.IsValid)
             {
-                var userIdString = _userManager.GetUserId(User);
-                if (userIdString == null)
+                // Exibi erros do ModelState no console
+                foreach (var state in ModelState)
                 {
-                    return RedirectToAction("Login", "Account");
+                    foreach (var error in state.Value.Errors)
+                    {
+                        Console.WriteLine($"Key: {state.Key}, Error: {error.ErrorMessage}");
+                    }
                 }
-
-              
-                var userIdGuid = Guid.Parse(userIdString);
-                int userId = BitConverter.ToInt32(userIdGuid.ToByteArray(), 0);
-
-                model.UsuarioId = userId; 
-                _context.Playlists.Add(model);
-                await _context.SaveChangesAsync();
-
-                return RedirectToAction("Index");
+                return View(model);
             }
 
-            return View(model);
+          
+            var user = await _userManager.GetUserAsync(User);
+            model.UsuarioId = user.Id;
+            model.Usuario = user;
+
+          
+            _context.Playlists.Add(model);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
 
-  
+        [HttpPost]
         [Authorize]
-        public async Task<IActionResult> AdicionarMusica(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var playlist = _context.Playlists
-                .Include(p => p.Musicas)
-                .FirstOrDefault(p => p.PlaylistId == id);
-
+            var playlist = await _context.Playlists.FindAsync(id);
             if (playlist == null)
             {
                 return NotFound();
             }
 
-            var userIdString = _userManager.GetUserId(User);
-            if (userIdString == null)
+            _context.Playlists.Remove(playlist);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index)); 
+        }
+
+        public IActionResult Adicionar(int playlistId)
+        {
+            ViewBag.PlaylistId = playlistId; 
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Adicionar(Musica musica)
+        {
+            if (ModelState.IsValid)
             {
-                return RedirectToAction("Login", "Account");
+                _context.Musicas.Add(musica);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Visualizar", "Musica", new { playlistId = musica.PlaylistId });
             }
+            return View(musica); 
+        }
 
-           
-            var userIdGuid = Guid.Parse(userIdString);
-            int userId = BitConverter.ToInt32(userIdGuid.ToByteArray(), 0);
 
-            if (userId != playlist.UsuarioId)
+        public async Task<IActionResult> VisualizarMusicas(int id)
+        {
+            var playlist = await _context.Playlists.Include(p => p.Musicas)
+                 .FirstOrDefaultAsync(p => p.PlaylistId == id);
+
+            if (playlist == null)
             {
-                return Forbid();
+                return NotFound();
             }
-
             return View(playlist);
         }
 
-        // Remover música
-        [Authorize]
-        public async Task<IActionResult> RemoverMusica(int playlistId, int musicaId)
-        {
-            var playlist = _context.Playlists
-                .Include(p => p.Musicas)
-                .FirstOrDefault(p => p.PlaylistId == playlistId);
-
-            if (playlist == null)
-            {
-                return NotFound();
-            }
-
-            var userIdString = _userManager.GetUserId(User);
-            if (userIdString == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
-            
-            var userIdGuid = Guid.Parse(userIdString);
-            int userId = BitConverter.ToInt32(userIdGuid.ToByteArray(), 0);
-
-            if (userId != playlist.UsuarioId)
-            {
-                return Forbid();
-            }
-
-            var musica = playlist.Musicas.FirstOrDefault(m => m.MusicaId == musicaId);
-            if (musica != null)
-            {
-                playlist.Musicas.Remove(musica);
-                await _context.SaveChangesAsync();
-            }
-
-            return RedirectToAction("Detalhes", new { id = playlistId });
-        }
     }
 
 }

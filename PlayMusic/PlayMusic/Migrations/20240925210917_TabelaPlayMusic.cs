@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace PlayMusic.Migrations
 {
     /// <inheritdoc />
-    public partial class TabelasPlayMusic : Migration
+    public partial class TabelaPlayMusic : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -163,18 +163,18 @@ namespace PlayMusic.Migrations
                 {
                     PlaylistId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UsuarioId = table.Column<int>(type: "int", nullable: false),
-                    PlaylistNome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    usuariosId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    UsuarioId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    PlaylistNome = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Playlists", x => x.PlaylistId);
                     table.ForeignKey(
-                        name: "FK_Playlists_AspNetUsers_usuariosId",
-                        column: x => x.usuariosId,
+                        name: "FK_Playlists_AspNetUsers_UsuarioId",
+                        column: x => x.UsuarioId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -185,8 +185,7 @@ namespace PlayMusic.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PlaylistId = table.Column<int>(type: "int", nullable: false),
                     NomeMusica = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ArtistaMusica = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Genero = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ArtistaMusica = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -244,9 +243,9 @@ namespace PlayMusic.Migrations
                 column: "PlaylistId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Playlists_usuariosId",
+                name: "IX_Playlists_UsuarioId",
                 table: "Playlists",
-                column: "usuariosId");
+                column: "UsuarioId");
         }
 
         /// <inheritdoc />

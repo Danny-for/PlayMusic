@@ -3,48 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\playlist\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\playlist\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\account\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\account\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\viewmodels\\alterarsenhaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\viewmodels\\alterarsenhaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\playlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\playlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\playlist\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\playlist\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\musica\\visualizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\musica\\visualizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\musica\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\musica\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\account\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\account\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,24 +79,32 @@
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\viewmodels\\alterarsenhaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\viewmodels\\alterarsenhaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\musicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\account\\alterarsenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\account\\alterarsenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\viewmodels\\verificandoemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,144 +119,266 @@
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\account\\verificandoemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\account\\verificandoemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\playmusic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\playmusic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|c:\\users\\danny\\onedrive\\\u00E1rea de trabalho\\academiaatos\\atosprojeto\\playmusic\\playmusic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD68CE6D-5637-40C9-8705-906F5F6DA0C1}|PlayMusic\\PlayMusic.csproj|solutionrelative:playmusic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 274,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Criar.cshtml",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Playlist\\Criar.cshtml",
               "RelativeDocumentMoniker": "PlayMusic\\Views\\Playlist\\Criar.cshtml",
               "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Playlist\\Criar.cshtml",
               "RelativeToolTip": "PlayMusic\\Views\\Playlist\\Criar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-25T00:04:40.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Registro.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Registro.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Account\\Registro.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Playlist\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Playlist\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Playlist\\Index.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Playlist\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T04:53:48.975Z",
+              "WhenOpened": "2024-09-25T19:26:39.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PlayMusic\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:38:35.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicaController.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\MusicaController.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\MusicaController.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\MusicaController.cs",
+              "RelativeToolTip": "PlayMusic\\Controllers\\MusicaController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:39:57.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PlayMusic\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T04:39:10.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlaylistController.cs",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\PlaylistController.cs",
               "RelativeDocumentMoniker": "PlayMusic\\Controllers\\PlaylistController.cs",
               "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\PlaylistController.cs",
               "RelativeToolTip": "PlayMusic\\Controllers\\PlaylistController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwB8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwC8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T04:39:37.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Visualizar.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Musica\\Visualizar.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Musica\\Visualizar.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Musica\\Visualizar.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Musica\\Visualizar.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T20:37:23.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Musica\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Musica\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Musica\\Adicionar.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Musica\\Adicionar.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T20:34:58.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Usuario.cs",
+              "RelativeToolTip": "PlayMusic\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:24:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Playlist.cs",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "PlayMusic\\Models\\Playlist.cs",
               "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Playlist.cs",
               "RelativeToolTip": "PlayMusic\\Models\\Playlist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T15:02:25.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlterarSenhaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
-              "RelativeToolTip": "PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvw0AAAAWAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Musica.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Musica.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Models\\Musica.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Musica.cs",
+              "RelativeToolTip": "PlayMusic\\Models\\Musica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T05:56:33.984Z",
+              "WhenOpened": "2024-09-25T18:42:39.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PlayMusic\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T06:02:19.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T06:45:08.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayMusic\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PlayMusic\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T05:45:17.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T05:45:17.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\Usuario.cs",
-              "RelativeToolTip": "PlayMusic\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T19:24:18.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "PlayMusic\\Controllers\\UsuarioController.cs",
+              "DocumentIndex": 14,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Registro.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Registro.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Account\\Registro.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:39:10.168Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T04:53:48.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PlayMusic\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.Development.json",
+              "RelativeToolTip": "PlayMusic\\appsettings.Development.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T02:50:24.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.json",
+              "RelativeDocumentMoniker": "PlayMusic\\appsettings.json",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.json",
+              "RelativeToolTip": "PlayMusic\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-16T22:40:33.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PlayMusic\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:19:19.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T10:21:48.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "PlayMusic\\ViewModels\\LoginViewModel.cs",
@@ -236,199 +390,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_AccountLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T11:12:22.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-21T06:45:08.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PlayMusic\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwJgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:19:19.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwBoAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T10:21:48.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-21T06:29:54.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MusicaController.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\MusicaController.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\MusicaController.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\MusicaController.cs",
-              "RelativeToolTip": "PlayMusic\\Controllers\\MusicaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:39:57.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.json",
-              "RelativeDocumentMoniker": "PlayMusic\\appsettings.json",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\appsettings.json",
-              "RelativeToolTip": "PlayMusic\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-16T22:40:33.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PlayMusic\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:38:35.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AlterarSenha.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T06:18:19.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "VerificandoEmailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
-              "RelativeToolTip": "PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T05:54:43.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PlayMusic\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "PlayMusic\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-24T02:49:39.358Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "account.css",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\account.css",
-              "RelativeDocumentMoniker": "PlayMusic\\wwwroot\\css\\account.css",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\account.css",
-              "RelativeToolTip": "PlayMusic\\wwwroot\\css\\account.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-22T10:35:18.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "VerificandoEmail.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\VerificandoEmail.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\VerificandoEmail.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\VerificandoEmail.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Account\\VerificandoEmail.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T05:52:55.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PlayMusic.csproj",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\PlayMusic.csproj",
-              "RelativeDocumentMoniker": "PlayMusic\\PlayMusic.csproj",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\PlayMusic.csproj",
-              "RelativeToolTip": "PlayMusic\\PlayMusic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-21T00:10:01.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T17:16:16.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Program.cs",
               "RelativeDocumentMoniker": "PlayMusic\\Program.cs",
               "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Program.cs",
               "RelativeToolTip": "PlayMusic\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T23:20:44.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 21,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "PlayMusic\\Data\\DataContext.cs",
@@ -440,15 +414,141 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "PlayMusic\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "PlayMusic\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "AlterarSenhaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
+              "RelativeToolTip": "PlayMusic\\ViewModels\\AlterarSenhaViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvw0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:02:19.793Z"
+              "WhenOpened": "2024-09-21T05:56:33.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AccountLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_AccountLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T11:12:22.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T06:29:54.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AlterarSenha.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Account\\AlterarSenha.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T06:18:19.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VerificandoEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
+              "RelativeDocumentMoniker": "PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
+              "RelativeToolTip": "PlayMusic\\ViewModels\\VerificandoEmailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:54:43.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PlayMusic\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PlayMusic\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-24T02:49:39.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "account.css",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\account.css",
+              "RelativeDocumentMoniker": "PlayMusic\\wwwroot\\css\\account.css",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\wwwroot\\css\\account.css",
+              "RelativeToolTip": "PlayMusic\\wwwroot\\css\\account.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T10:35:18.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PlayMusic.csproj",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\PlayMusic.csproj",
+              "RelativeDocumentMoniker": "PlayMusic\\PlayMusic.csproj",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\PlayMusic.csproj",
+              "RelativeToolTip": "PlayMusic\\PlayMusic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T00:10:01.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\danny\\OneDrive\\\u00C1rea de Trabalho\\AcademiaAtos\\AtosProjeto\\PlayMusic\\PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PlayMusic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T17:16:16.433Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 126,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

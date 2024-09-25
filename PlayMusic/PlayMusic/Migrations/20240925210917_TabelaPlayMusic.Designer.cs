@@ -12,8 +12,8 @@ using PlayMusic.Data;
 namespace PlayMusic.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240921042407_TabelasPlayMusic")]
-    partial class TabelasPlayMusic
+    [Migration("20240925210917_TabelaPlayMusic")]
+    partial class TabelaPlayMusic
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -170,10 +170,6 @@ namespace PlayMusic.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Genero")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("NomeMusica")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -200,15 +196,13 @@ namespace PlayMusic.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("usuariosId")
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("PlaylistId");
 
-                    b.HasIndex("usuariosId");
+                    b.HasIndex("UsuarioId");
 
                     b.ToTable("Playlists");
                 });
@@ -335,22 +329,22 @@ namespace PlayMusic.Migrations
 
             modelBuilder.Entity("PlayMusic.Models.Musica", b =>
                 {
-                    b.HasOne("PlayMusic.Models.Playlist", "Playlist")
+                    b.HasOne("PlayMusic.Models.Playlist", null)
                         .WithMany("Musicas")
                         .HasForeignKey("PlaylistId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Playlist");
                 });
 
             modelBuilder.Entity("PlayMusic.Models.Playlist", b =>
                 {
-                    b.HasOne("PlayMusic.Models.Usuario", "usuarios")
+                    b.HasOne("PlayMusic.Models.Usuario", "Usuario")
                         .WithMany("Playlists")
-                        .HasForeignKey("usuariosId");
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("usuarios");
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("PlayMusic.Models.Playlist", b =>
