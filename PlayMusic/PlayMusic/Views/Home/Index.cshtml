@@ -3,6 +3,34 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h3 class="display-3 text-white">Explore o Gerenciador de Músicas</h3>
+    <p class="text-white">
+        Aqui você pode criar suas próprias playlists e explorar as playlists compartilhadas por outros usuários.</br>
+        Desfrute de uma experiência musical personalizada e conecte-se com novas descobertas!
+    </p>
+    <a class="nav-link botao-personalizado" asp-controller="Playlist" asp-action="Criar">Criar Playlist</a>
 </div>
+
+<h3  class="text-white" >Playlists de outros usuários:</h3>
+<ul>
+</ul>
+
+
+<style>
+    .botao-personalizado {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff; /* Cor de fundo (azul) */
+        color: white; /* Cor do texto */
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px; /* Bordas arredondadas */
+        font-size: 16px;
+        transition: background-color 0.3s ease; /* Efeito de transição */
+    }
+
+        .botao-personalizado:hover {
+            background-color: #0056b3; /* Cor ao passar o mouse */
+        }
+</style>
+
