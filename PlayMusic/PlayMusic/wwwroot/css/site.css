@@ -25,3 +25,20 @@ body {
     margin-bottom: 60px;
     background-color: #14091F;
 }
+
+.botao-personalizado {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b0552;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .botao-personalizado:hover {
+        background-color: #340663;
+        color:white;
+    }

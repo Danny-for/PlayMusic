@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 <div class="text-center">
     <h3 class="display-3 text-white">Explore o Gerenciador de Músicas</h3>
     <p class="text-white">
@@ -10,27 +10,4 @@
     </p>
     <a class="nav-link botao-personalizado" asp-controller="Playlist" asp-action="Criar">Criar Playlist</a>
 </div>
-
-<h3  class="text-white" >Playlists de outros usuários:</h3>
-<ul>
-</ul>
-
-
-<style>
-    .botao-personalizado {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff; /* Cor de fundo (azul) */
-        color: white; /* Cor do texto */
-        text-align: center;
-        text-decoration: none;
-        border-radius: 5px; /* Bordas arredondadas */
-        font-size: 16px;
-        transition: background-color 0.3s ease; /* Efeito de transição */
-    }
-
-        .botao-personalizado:hover {
-            background-color: #0056b3; /* Cor ao passar o mouse */
-        }
-</style>
 

@@ -4,18 +4,18 @@
     ViewData["Title"] = "Músicas da Playlist";
 }
 
-<h2>Músicas da Playlist</h2>
+<h2 class="text-white">Músicas da Playlist</h2>
 
 @if (!Model.Any())
 {
-    <p>Nenhuma música encontrada.</p>
+    <p class="text-white">Nenhuma música encontrada.</p>
 }
 else
 {
     <ul>
         @foreach (var musica in Model)
         {
-            <li>@musica.NomeMusica - @musica.ArtistaMusica</li>
+            <li class="text-white">@musica.NomeMusica - @musica.ArtistaMusica</li>
         }
     </ul>
 }
