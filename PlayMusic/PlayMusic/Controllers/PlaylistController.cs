@@ -24,8 +24,12 @@ namespace PlayMusic.Controllers
         [Authorize]
         public async Task<IActionResult> Index()
         {
-            var playlists = await _context.Playlists.ToListAsync();
-            return View(playlists);
+            var user = await _userManager.GetUserAsync(User);
+            var minhasPlaylists = await _context.Playlists
+                .Where(p => p.UsuarioId == user.Id)
+                .ToListAsync();
+
+            return View(minhasPlaylists);
         }
 
 
@@ -39,34 +43,27 @@ namespace PlayMusic.Controllers
         [Authorize]
         public async Task<IActionResult> Criar(Playlist model)
         {
-            // Remove as chaves que estão causando os erros de validação
-            ModelState.Remove("Usuario");
-            ModelState.Remove("UsuarioId");
-
-            if (!ModelState.IsValid)
-            {
-                // Exibi erros do ModelState no console
-                foreach (var state in ModelState)
-                {
-                    foreach (var error in state.Value.Errors)
-                    {
-                        Console.WriteLine($"Key: {state.Key}, Error: {error.ErrorMessage}");
-                    }
-                }
-                return View(model);
-            }
-
-          
             var user = await _userManager.GetUserAsync(User);
             model.UsuarioId = user.Id;
             model.Usuario = user;
 
-          
+
             _context.Playlists.Add(model);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
         }
+
+        [AllowAnonymous] // Permite  todos os usuários
+        public async Task<IActionResult> TodasPlaylists()
+        {
+            var todasPlaylists = await _context.Playlists
+                .Include(p => p.Usuario)
+                .ToListAsync();
+
+            return View(todasPlaylists); 
+        }
+
 
         [HttpPost]
         [Authorize]
@@ -91,6 +88,7 @@ namespace PlayMusic.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Adicionar(Musica musica)
         {
             if (ModelState.IsValid)

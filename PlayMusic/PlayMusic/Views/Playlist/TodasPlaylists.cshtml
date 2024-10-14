@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PlayMusic.Models.Playlist>
+
+@{
+    ViewData["Title"] = "Playlists de Todos os Usuários";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mb-4 text-white">Playlists de Todos os Usuários</h2>
+
+<div class="playlist-container">
+    @if (!Model.Any())
+    {
+        <p class="text-white">Nenhuma playlist encontrada.</p>
+    }
+    else
+    {
+        <ul class="list-group">
+            @foreach (var playlist in Model)
+            {
+                <li class="list-group-item-white d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong class="text-white">@playlist.PlaylistNome</strong><p class="text-white"> Criada por:  @playlist.Usuario.Email </p>
+                    </div>
+                    <div>
+                        <a asp-controller="Musica" asp-action="Visualizar" asp-route-playlistId="@playlist.PlaylistId" class="btn btn-info btn-sm">Visualizar Músicas</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
